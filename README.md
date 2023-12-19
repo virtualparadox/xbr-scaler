@@ -20,7 +20,7 @@ To use the GoLang xBR Scaler in your project, you can install it using `go get`:
 
 ### PNG Scaler Util
 ```go
-    pngScaler := NewPngScaler(true, true, false) // blend colors, scale alpha, do not use original 3x impl
+    pngScaler := xbrscaler.NewPngScaler(true, true, false) // blend colors, scale alpha, do not use original 3x impl
     pngScaler.ScalePng("input.png", "output.png", 4) // read input.png and write 4x output to output.png
 ```
 
@@ -38,7 +38,7 @@ func main() {
     originalWidth, originalHeight := /* your image dimensions */
 
     // Create a new Xbr scaler instance
-    scaler := xbr.NewXbrScaler(false) // do not use original 3x scaling implementation
+    scaler := xbrscaler.NewXbrScaler(false) // do not use original 3x scaling implementation
 
     // Scale the image using 2x scaling
     scaledPixels, scaledWidth, scaledHeight := scaler.Xbr3x(&pixelArray, originalWidth, originalHeight, true, true)
@@ -49,10 +49,10 @@ func main() {
 ```
 
 ## Examples
-| Original | 3x Zoom |
-|----------|---------|
-| ![Original Image](URL_to_original_image) | ![Zoomed Image](URL_to_zoomed_image) |
-| Description or details for original image | Description or details for zoomed image |
+| Original                             | 3x Zoom                             |
+|--------------------------------------|-------------------------------------|
+| ![Kobold](samples/kobold-nozoom.png) | ![Kobold 4x](samples/kobold-4x.png) |
+| ![Maze](samples/maze-nozoom.png)     | ![Maze 4x](samples/maze-4x.png)     |
 
 
 ## Contributing
