@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bbb6e60c-bc31-4ac2-8e8c-dc7a4ad50a23" name="Changes" comment="" />
+    <list default="true" id="bbb6e60c-bc31-4ac2-8e8c-dc7a4ad50a23" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/pngutil.go" beforeDir="false" afterPath="$PROJECT_DIR$/pngutil.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xbr.go" beforeDir="false" afterPath="$PROJECT_DIR$/xbr.go" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
