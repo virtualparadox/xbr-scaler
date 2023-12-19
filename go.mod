@@ -1,3 +1,3 @@
-module xbr-scaler
+module xbrscaler
 
 go 1.21
