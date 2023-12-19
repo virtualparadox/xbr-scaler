@@ -29,7 +29,7 @@ To use the GoLang xBR Scaler in your project, you can install it using `go get`:
 package main
 
 import (
-    "github.com/virtualparadox/xbr-scaler"
+    "github.com/virtualparadox/xbrscaler"
 )
 
 func main() {

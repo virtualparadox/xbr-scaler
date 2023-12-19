@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bbb6e60c-bc31-4ac2-8e8c-dc7a4ad50a23" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/xbr.go" beforeDir="false" afterPath="$PROJECT_DIR$/xbrscaler.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xbrscaler/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../xbrscaler/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xbrscaler/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../xbrscaler/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xbrscaler/xbr.go" beforeDir="false" afterPath="$PROJECT_DIR$/../xbrscaler/xbrscaler.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,7 +16,7 @@
   </component>
   <component name="GOROOT" url="file://$USER_HOME$/sdk/go1.21.5" />
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../xbrscaler" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
